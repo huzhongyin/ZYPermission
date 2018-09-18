@@ -8,8 +8,8 @@ s.license             = 'MIT'
 s.author             = { 'huzhongyin' => '767915479@qq.com' }
 s.source              = { :git => 'https://github.com/huzhongyin/ZYPermission.git', :tag => s.version.to_s }
 s.source_files        = 'PPPrivacyPermission/*.{h,m}'
-s.frameworks       = 'UIKit', 'Foundation'
+s.frameworks       = 'UIKit', 'Foundation','Photos','AVFoundation','EventKit','Contacts','Speech','HealthKit','MediaPlayer','UserNotifications','CoreBluetooth','CoreLocation'
 s.requires_arc     = true
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '9.0'
 
 end
